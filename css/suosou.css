@@ -1,0 +1,229 @@
+.search{
+    width: 30%;
+   margin-top: 10px;
+   margin-left: 200px;
+    display: flex;
+    height: 40px;
+}
+.search input{  
+    flex: 4;
+    outline: none;
+    border: 2px solid #1974e7;
+    /* 内边距 和 边框 的值被包含在已经设定好的宽度和高度中 */
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.search button{
+    flex: 1;
+    /* 边框样式 */
+    border-style: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #1974e7;
+}
+.search button:hover{
+   color: red;
+}
+.lub img{
+    margin-top: 20px;
+    width: 980px;
+    height: 420px;
+}
+/* 字体图标 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.ttf?t=1685613406982') format('truetype');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    width: 20px;
+    display: inline-block;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .hh{
+    font-size: 30px;
+  }
+
+.tu img{
+  margin-top: 20px;
+    width: 980px;
+    height: 420px;
+}
+  /* 轮播设置 */
+
+#a1:checked~.tu_1{
+    transform: translateX(0);
+    transition: 1s;
+}
+#a2:checked~.tu_2{
+    transform: translateX(-980px);
+    opacity: 100%;
+    transition: 1s;
+}
+#a3:checked~.tu_3{
+    transform: translateX(-1960px);
+    opacity: 100%;
+    transition: 1s;
+}
+
+.tu_2{
+    
+    /* transition: 1s; */
+    opacity: 0%;
+}
+.tu_3{
+  
+    /* transition: 1s; */
+    opacity:0%;
+}
+
+.input_0{
+    width: 980px;
+    height: 440px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    
+ 
+}
+
+.input_0 input{
+   display: none;
+}
+
+
+
+
+.map{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.anniu label{
+   margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.cc{
+    border: 2px solid red;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 20px;
+    /* background-color: #1974e7; */
+    display:block;
+    width: 10px;
+    height: 10px;
+    transition: 1s;
+  
+}
+.an{
+    z-index: 3;
+    margin-top:-30px;
+    display: flex;
+    flex-direction: row;
+     margin-left: 800px;
+    width: 120px;
+   
+  
+}
+.ziti{
+    font-size: 20px;
+}
+.ziti_1{
+    z-index: 2;
+   position: relative;
+   top: 4px;
+   font-size: 30px;
+  margin-left: -20px;
+}
+.ziti_3{
+    z-index: 2;
+    position: relative;
+    top: 4px;
+    font-size: 30px;
+   margin-left: -15px;
+  
+}
+.ziti_2{
+   margin-left: 70px;
+ font-size: 18px;
+}
+.ziti_4{
+    margin-left: 55px;
+    font-size: 18px;
+}
+.ziti_5{
+    margin-left: 67px;
+    font-size: 18px;
+}
+.ziti_6{
+    margin-left: 67px;
+    font-size: 18px;
+}
+.ziti_7{
+    margin-left: 63px;
+    font-size: 18px;
+}
+/* 滑动门设置 */
+.hua{
+    height: 420px;
+    width: 206px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.hua_1{
+    width: 620px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+.hua_1 li{
+    cursor: pointer;
+
+}
+.kehuduan span img{
+    margin-left: 200px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
+}
+
+.hua_1 li span i{
+    color: #666;
+}
+.hua li span i{
+    
+    color: #666;
+}
+.hua li:hover{
+    color: #04be02;
+    width: 105%;
+    height: 105%;
+    box-shadow: 2px 2px 4px #666;
+    background-color: #ffffff;
+}
+.hua_1 li:hover{
+    color: #04be02;
+ background-color: #ffffff;
+}
+/* 客户端滑动门 */
+.kehuduan{
+    width: 620px;
+    height: 420px;
+    background-image: url(../inages/一起吃饭.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+

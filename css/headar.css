@@ -1,0 +1,276 @@
+.kuangjia_1{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+.b_1{
+    color: black;
+}
+.suosoukuang{
+    height: 80px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.kuangjia_1 span img{
+    height: 50px;
+    border-radius: 51%;
+}
+.kuangjia_1 div span{
+    display: flex;
+    flex-direction: column;
+}
+.kuangjia_1 div span i{
+    font-size: 14px;
+}
+.kuangjia_1 div span b{
+    
+    font-size: 37px;
+}
+/* 搜索框设置 */
+.sousuo{
+    display: flex;
+    flex-direction: row;
+}
+.sousuo input{
+    border: 1px solid #333;
+    border-radius: 6%;
+    margin-left: 300px;
+    height: 25px;
+    margin-top: 15px;
+}
+.lside{
+    display: flex;
+    flex-direction: row;
+}
+.sousuo button{
+    cursor: pointer;
+    border:1px solid white;
+    background-color: wheat;
+    display: inline-block;
+    width: 50px;
+    height: 27px;
+    margin-top: 15px;
+}
+/* 搜索框右侧布局 */
+.search_right{
+
+    display: flex;
+    flex-direction: row;
+}
+.ul_1{
+    margin-top: -9px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ul_1 h4{
+    cursor: pointer;
+}
+.ul_1 li span{
+    font-size: 13px;
+    cursor: pointer;
+}
+.ul_1 li span:hover{
+    color: red;
+}
+.ul_1 li i:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.c_1:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.ul_1 li i{
+  
+    display: inline-block;
+    cursor: pointer;
+    font-size: 9px;
+    color: #666;
+}
+.search_right a{
+    font-size: 12px;
+    color: black;
+}
+.search_right img{
+    cursor: pointer;
+    margin-left: 10px;
+    height: 70px;
+}
+/* .左侧列表设置 */
+
+.lside_ul{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+    background-color:#7f9b74;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 220px;
+    height: 360px;
+    margin-top: 20px;
+}
+.lside_ul li{
+   
+    padding-top: 20px;
+    flex: 1;
+     width: 220px;
+    height: 60px;
+}
+
+.lside_ul li:hover{
+    background-color: red;
+}
+.d1 {
+  margin-top: 20px;
+}
+
+.lside_ul li a{
+    display: block;
+   
+    margin-left: -40px;
+   
+    
+    color:white;
+}
+/* 列表滑出设置 */
+.huangdong{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ position: absolute;
+   margin-left: 220px;
+   margin-top: -82px;
+    background-color:white;
+    width: 620px;
+    height: 420px;
+    opacity:0%;
+    
+ 
+}
+.shi{
+    margin-top: -154px;
+}
+.shi_1{
+    margin-top: -226px;
+}
+.shi_2{
+    margin-top: -298px;
+}
+.shi_3{
+    margin-top: -370px;
+}
+
+.lside_ul li:hover>.huangdong{
+    box-shadow: 4px 4px 6px #ccc;
+    transition: .7s;
+    z-index: 10;
+    opacity:100%;
+}
+/* 食材网页部分开始 */
+/* 设置总体框架 */
+.main_3{
+    /* background-color: #7f9b74; */
+    width: 100%;
+    min-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main_3_juzhong{
+    width: 1200px;
+    min-width: 1200px;
+  
+    display: flex;
+    flex-direction: column;
+   
+}
+/* 顶部设置 */
+/* 食材表单设置 */
+.left_1{
+    display: flex1;
+    flex-direction: column;
+}
+.left_2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.left_2 span a img{
+   
+    width: 50px;
+    height: 50px;
+}
+.dingbu{
+    display: flex;
+    flex-direction: row;
+}
+.left_2 i{
+    
+    font-weight: bold;
+    display: inline-block;
+    color: black;
+    font-size: 37px;
+}
+.left_1 p{
+    margin-top: -7px;
+    margin-left: 60px;
+    color: #666;
+    font-size: 10px;
+}
+.main_3_left{
+    margin-top: 20px;
+    border: 2px solid wheat;
+   
+display: flex;
+flex-direction: column;
+
+}
+.main_3_left_ul{
+   margin-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around; 
+}
+.main_3_left_ul li span{
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-top: 5px;
+}
+.main_3_left_ul li span:hover{
+    color: red;
+}
+.main_3_left_ul_1 li div img{
+    border-radius: 5%;
+    width: 80px;
+    height: 80px;
+}
+.main_3_left_ul_1 li{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+.main_3_left_ul_1 li span{
+    display: flex;
+    flex-direction: column;
+}
+.main_3_left_ul_1 li span h4{
+    margin: 5px;
+}
+.main_3_left_ul_1 li span P{
+    color: #666;
+    margin: 5px;
+}
+/* }滑动门效果设置 */
+.main_3_huadong{
+    display: flex;
+    flex-direction: row;
+}

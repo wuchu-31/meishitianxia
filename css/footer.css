@@ -1,0 +1,69 @@
+.footer_0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.f_0{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.f_0 h4{
+    margin: 10px;
+    cursor: pointer;
+    color: orangered;
+}
+.f_1{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.f_1 li{
+    margin-left: 10px;
+}
+.f_1 li a{
+    font-size: 14px;
+    color: #666;
+}
+.f_1 li a:hover{
+    color: red;
+    text-decoration: underline;
+}.f_1 h5{
+    margin-top: 2px;
+}
+.xiazai{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.xiazai img{
+    margin-top: 40px;
+    width: 120px;
+    height: 120px;
+}
+.xiazai span i{
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+}
+/* menu网页底部 */
+.gengduo{
+    line-height: 40px;
+  
+    margin-top: 40px;
+    font-size: 18px;
+    color: #ff6767;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+   width: 990px;
+   height: 44px;
+   margin-left: 90px;
+}
+
+.gengduo:hover{
+    transition: 1s;
+    background-color: #ff6767;
+    color: #ffffff;
+}
